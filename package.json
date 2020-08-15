@@ -2,8 +2,9 @@
   "name": "node-ts-starter",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Horus Lugo",
+  "author": "Mark Phillips",
   "license": "MIT",
+  "description": "Something epic",
   "scripts": {
     "dev": "tsnd --respawn -r @babel/register src/index.ts",
     "build": "babel ./src -d ./dist --extensions .ts",

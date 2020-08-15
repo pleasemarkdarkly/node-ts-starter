@@ -1,47 +1,23 @@
-# Node TypeScript Starter
+![Badge](https://img.shields.io/badge/procrastination-i%20made%20this%20badge%20instead%20of%20programming-orange)
 
-## Getting started
+### Epic Project Name
 
-1. Clone this repository and open it
+## Epic Purpose
 
-```bash
-$ git clone https://github.com/HorusGoul/node-ts-starter your-next-project
-$ cd your-next-project
-```
+## Build
 
-2. Install dependencies
+`yarn && yarn build && yarn dev`
 
-```bash
-$ yarn
-```
+## TODO
 
-3. Launch the dev mode
+- [ ] Stop procrastinating
 
-```bash
-$ yarn dev
-```
-
-4. You can start coding! The entry point is located in `src/index.ts`.
-
-## What's preconfigured?
-
-The intent of this starter is to be really slim so it's not a nightmare to remove or change stuff, that's why there are just a few things preconfigured:
-
-- Babel
-- TypeScript
-- ESLint
-- Prettier
-- Husky pre-commit hook that runs ESLint and type checks the code base
-- A few npm scripts
-
-## Scripts
+## Included Scripts
 
 - `yarn dev`. Runs the project in dev mode, which means that it won't check types and will restart with every change you make.
 - `yarn build`. Compiles the project to the `./dist` folder.
 - `yarn typecheck`. Checks the typings of the project. Gets executed before trying to create a new commit but you can also run it manually.
 - `yarn start`. Runs the compiled program. Remember to execute `yarn build` before attempting to launch the program.
 - `yarn lint`. Runs ESLint. You can append `--fix` in order to fix autofixable issues.
+- `yarn save`. Runs `git add . && echo Enter commit message && read && git commit -m \":octocat: ${REPLY}\" && git push`
 
-## What to do next
-
-Adapt the configuration to your needs and start coding!
